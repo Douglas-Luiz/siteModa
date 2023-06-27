@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@font-face {
+    font-family: 'Nova Quinta';
+    src: url(/assets/fonts/NovaQuinta_PERSONAL_USE_ONLY.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-family: 'Nova Quinta';
+    background-image: linear-gradient(to right, #ae8625, #dbd254, #d2ac47, #edc967);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.template {
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-top: 55px;
+}
+
+.template-img {
+    width: 100%;
+}
+
+.template-img img {
+    width: 100%;
+    height: 330px;
+}
+
+.template-shadow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: linear-gradient(to right, #000, #ffffff00);
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+}
+
+.template-text {
+    width: 230px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.template-text p {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'nova Quinta';
+    text-align: center;
+    background-image: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    line-height: 1.5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards {
+    padding-top: 65px;
+
+}
+
+.card {
+    margin: 0 15px;
+}
+
+.card a svg {
+    margin-bottom: 6px;
+}
+
+.card-text {
+    margin-top: 5px;
+    padding: 4px;
+}
+
+.rank {
+    display: inline-flex;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.rank svg {
+    color: #d2ac47;
+}
+
+.rank p {
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+
+.points {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.price {
+    font-size: 40px;
+    font-family: serif;
+    margin-bottom: 15px;
+}
+
+.sub-price {
+    display: inline-block;
+    font-size: 12px;
+    height: 100%;
+    position: relative;
+    top: -17px;
+    left: 5px;
+}
+
+.btn, .btn button {
+    background-image: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    color: #000;
+    font-weight: 500;
+}
+.team-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    padding-top: 15px;
+    
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.137);
+    border-radius: 15px;
+    padding-top: 7px;
+    margin-top: 15px;
+}
+.team-perfil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desktop{
+    display: none;
+}
+
+.team-img-border {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    border: 5px solid #fff;
+
+}
+
+.team-perfil img {
+    width: 95%;
+    border-radius: 50%;
+}
+.team-img-border:hover img{
+    filter: saturate(0);
+    transition: .5s;
+}
+.team-img-border:hover{
+    scale: 1.1;
+}.team-perfil:hover p{
+    scale: 1.1;
+}
+
+
+.team-perfil .team-name {
+    margin-top: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Nova Quinta';
+}
+.team-description{
+    width: 100%;
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-text{
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.carousel {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'nova Quinta';
+    text-align: center;
+    background-image: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    line-height: 1.5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.carousel-caption {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    width: 100%;
+    background-color: #000;
+    padding: 40px 0;
+}
+.footer-fix{
+    margin-left: 35px;
+}
+footer .footer{
+    font-size: 50px;
+    padding-bottom: 35px;
+    
+}
+.contact p {
+    color: #fff;
+    margin: 0;
+}
+.contact p span{
+    display: flex;
+    margin-left: 18px;
+}
+.contact p:nth-child(1){
+    margin-top: 25px;
+}
+.social {
+    margin-top: 15px;
+}
+.social svg{
+    width: 40px;
+    position: relative;
+    color: #fff;
+    margin-left: 15px;
+   
+}
+.social svg:hover{
+    scale: 1.1;
+    padding-bottom: 15px;
+}
+
+@media(min-width: 900px) {
+    .template-text {
+        width: 400px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .template-text p {
+        font-size: 70px;
+    }
+
+    .cards {
+        padding-top: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 50px;
+    }
+
+    .card {
+        margin: 0 25px;
+    }
+
+    .carousel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 100px;
+    }
+
+    .team-group {
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 40px;
+        margin-top: 5px;
+    }
+    .team{
+        height: 250px;
+        flex-direction: row;
+        padding: 5px;
+        margin-top: 15px;
+    }
+    .team-perfil{
+        width: 200px;
+    }
+    .team-perfil .team-name.fix{
+        font-size: 22px;
+    }
+    .team-perfil .team-name{
+        font-size: 23px;
+        text-align: center;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+
+}
